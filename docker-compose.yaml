@@ -1,0 +1,47 @@
+version: '3.8'
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    networks:
+      - mynetwork
+    environment:
+      - NODE_ENV=development
+
+  uc1:
+    build: ./uc1
+    ports:
+      - "5001:5001"
+    networks:
+      - mynetwork
+    volumes:
+      - ./uc1:/uc1
+    environment:
+      - NODE_ENV=development
+
+  uc2:
+    build: ./uc2
+    ports:
+      - "5002:5002"
+    networks:
+      - mynetwork
+    volumes:
+      - ./uc2:/uc2
+    environment:
+      - NODE_ENV=development
+
+  uc3:
+    build: ./uc3
+    ports:
+      - "5003:5003"
+    networks:
+      - mynetwork
+    volumes:
+      - ./uc3:/uc3
+    environment:
+      - NODE_ENV=development
+
+networks:
+  mynetwork:
+    driver: bridge
