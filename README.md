@@ -37,7 +37,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/CC_Monolithic_to_Micro_Services.git
+git clone https://github.com/ArunAK111/CC_Monolithic_to_Micro_Services.git
 cd CC_Monolithic_to_Micro_Services
 
 # Build Docker Images
