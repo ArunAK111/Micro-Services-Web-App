@@ -61,7 +61,7 @@ kubectl get svc
 ## Contributors
 
 - **Arun A Kurali** - [GitHub](https://github.com/ArunAK111)
-- **Author Two** - [GitHub](#)
-- **Author Three** - [GitHub](#)
-- **Author Four** - [YourUsername](#)
+- **Arnab Karmakar** - [GitHub](https://github.com/arnabk1108)
+- **Anurag N Koppal** - [GitHub](https://github.com/anuragnkoppal)
+- **Arnav Atrey** - [Github](https://github.com/Arnav-Atrey)
 
