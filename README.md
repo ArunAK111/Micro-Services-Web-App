@@ -15,13 +15,13 @@ This repository showcases the transformation of an e-commerce platform from a mo
 
 ## Technologies Used
 
+- **CI/CD**: For continuous integration and continuous deployment, enhancing the software delivery process.
 - **MongoDB**: Database for storing all application data.
 - **Express.js**: Backend framework used within Node.js.
 - **React.js**: Library for building the user interface.
 - **Node.js**: JavaScript runtime for executing the backend in JavaScript.
 - **Docker**: For containerizing each microservice.
 - **Kubernetes**: For automating deployment, scaling, and operations of application containers.
-- **CI/CD**: For continuous integration and continuous deployment, enhancing the software delivery process.
 
 ## Getting Started
 
@@ -57,3 +57,11 @@ kubectl apply -f kubernetes.yaml
 # Access the Application
 kubectl get svc
 # Note the external IP and port to access the frontend service
+```
+## Contributors
+
+- **Arun A Kurali** - [GitHub](https://github.com/ArunAK111)
+- **Author Two** - [GitHub](#)
+- **Author Three** - [GitHub](#)
+- **Author Four** - [YourUsername](#)
+
