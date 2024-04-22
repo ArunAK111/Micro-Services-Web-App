@@ -27,7 +27,7 @@ This repository showcases the transformation of an e-commerce platform from a mo
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+### Prerequisites required
 
 - Docker
 - Kubernetes (e.g., Minikube, Docker Desktop)
@@ -41,7 +41,6 @@ git clone https://github.com/ArunAK111/CC_Monolithic_to_Micro_Services.git
 cd CC_Monolithic_to_Micro_Services
 
 # Build Docker Images
-## Navigate to each service directory and build Docker images
 cd frontend
 docker build -t yourdockerhubusername/frontend:latest .
 cd ../uc1
@@ -57,6 +56,7 @@ kubectl apply -f kubernetes.yaml
 # Access the Application
 kubectl get svc
 # Note the external IP and port to access the frontend service
+
 ```
 ## Contributors
 
